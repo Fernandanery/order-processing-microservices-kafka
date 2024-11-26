@@ -1,0 +1,13 @@
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\bin\Debug\net8.0\Delivery.Notifier.deps.json
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\bin\Debug\net8.0\Delivery.Notifier.dll
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\bin\Debug\net8.0\Delivery.Notifier.pdb
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\obj\Debug\net8.0\Delivery.Notifier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\obj\Debug\net8.0\Delivery.Notifier.AssemblyInfoInputs.cache
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\obj\Debug\net8.0\Delivery.Notifier.AssemblyInfo.cs
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\obj\Debug\net8.0\Delivery.Notifier.csproj.CoreCompileInputs.cache
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\obj\Debug\net8.0\Delivery.Notifier.sourcelink.json
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\obj\Debug\net8.0\Delivery.Notifier.dll
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\obj\Debug\net8.0\refint\Delivery.Notifier.dll
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\obj\Debug\net8.0\Delivery.Notifier.pdb
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\obj\Debug\net8.0\ref\Delivery.Notifier.dll
+C:\Projetos\estudos\order-processing-microservices-kafka\Delivery\Delivery.Notifier\obj\Debug\net8.0\Delivery.Notifier.csproj.AssemblyReference.cache

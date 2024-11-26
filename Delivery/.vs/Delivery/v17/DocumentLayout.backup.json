@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98420148-79F4-4F90-A492-E4500358FE29}|Delivery.API\\Delivery.API.csproj|c:\\projetos\\estudos\\order-processing-microservices-kafka\\delivery\\delivery.api\\controllers\\deliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98420148-79F4-4F90-A492-E4500358FE29}|Delivery.API\\Delivery.API.csproj|solutionrelative:delivery.api\\controllers\\deliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98420148-79F4-4F90-A492-E4500358FE29}|Delivery.API\\Delivery.API.csproj|c:\\projetos\\estudos\\order-processing-microservices-kafka\\delivery\\delivery.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98420148-79F4-4F90-A492-E4500358FE29}|Delivery.API\\Delivery.API.csproj|solutionrelative:delivery.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98420148-79F4-4F90-A492-E4500358FE29}|Delivery.API\\Delivery.API.csproj|c:\\projetos\\estudos\\order-processing-microservices-kafka\\delivery\\delivery.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98420148-79F4-4F90-A492-E4500358FE29}|Delivery.API\\Delivery.API.csproj|solutionrelative:delivery.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98420148-79F4-4F90-A492-E4500358FE29}|Delivery.API\\Delivery.API.csproj|c:\\projetos\\estudos\\order-processing-microservices-kafka\\delivery\\delivery.api\\delivery.api.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{98420148-79F4-4F90-A492-E4500358FE29}|Delivery.API\\Delivery.API.csproj|solutionrelative:delivery.api\\delivery.api.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98420148-79F4-4F90-A492-E4500358FE29}|Delivery.API\\Delivery.API.csproj|c:\\projetos\\estudos\\order-processing-microservices-kafka\\delivery\\delivery.api\\delivery.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98420148-79F4-4F90-A492-E4500358FE29}|Delivery.API\\Delivery.API.csproj|solutionrelative:delivery.api\\delivery.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Delivery.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Delivery.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T01:34:14.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.API\\Program.cs",
+              "RelativeDocumentMoniker": "Delivery.API\\Program.cs",
+              "ToolTip": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.API\\Program.cs*",
+              "RelativeToolTip": "Delivery.API\\Program.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T01:29:09.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delivery.API",
+              "DocumentMoniker": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.API\\Delivery.API.csproj",
+              "RelativeDocumentMoniker": "Delivery.API\\Delivery.API.csproj",
+              "ToolTip": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.API\\Delivery.API.csproj",
+              "RelativeToolTip": "Delivery.API\\Delivery.API.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-26T01:30:48.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delivery.Api.xml",
+              "DocumentMoniker": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.API\\Delivery.Api.xml",
+              "RelativeDocumentMoniker": "Delivery.API\\Delivery.Api.xml",
+              "ToolTip": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.API\\Delivery.Api.xml",
+              "RelativeToolTip": "Delivery.API\\Delivery.Api.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-11-26T01:28:34.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeliveryController.cs",
+              "DocumentMoniker": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.API\\Controllers\\DeliveryController.cs",
+              "RelativeDocumentMoniker": "Delivery.API\\Controllers\\DeliveryController.cs",
+              "ToolTip": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.API\\Controllers\\DeliveryController.cs*",
+              "RelativeToolTip": "Delivery.API\\Controllers\\DeliveryController.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T01:26:04.409Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

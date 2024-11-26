@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Delivery.API</name>
+    </assembly>
+    <members>
+        <member name="T:Delivery.API.Controllers.DeliveryController">
+            <summary>
+            Delivery Api
+            </summary>
+        </member>
+        <member name="M:Delivery.API.Controllers.DeliveryController.#ctor(Delivery.Domain.Services.IOrderDeliveryService)">
+            <summary>
+            Delivery Api
+            </summary>
+        </member>
+        <member name="F:Delivery.API.Controllers.DeliveryController._deliveryService">
+            <summary>
+            Creates an order api controller
+            </summary>
+            <param name="deliveryService">Order service instance</param>
+        </member>
+        <member name="M:Delivery.API.Controllers.DeliveryController.UpdateOrderSituation(System.String,Delivery.Domain.Entities.OrderDeliverySituation)">
+            <summary>
+            Updates an order situation
+            </summary>
+            <param name="orderDeliveryId">Order Delivery identification</param>
+            <param name="orderDeliverySituation">Order situation</param>
+        </member>
+    </members>
+</doc>
