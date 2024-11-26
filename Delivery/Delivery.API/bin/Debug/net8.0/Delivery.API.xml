@@ -14,11 +14,12 @@
             Delivery Api
             </summary>
         </member>
-        <member name="F:Delivery.API.Controllers.DeliveryController._deliveryService">
+        <member name="M:Delivery.API.Controllers.DeliveryController.CreateOrderDelivery(System.Collections.Generic.IList{System.String},Delivery.Domain.Entities.Customer)">
             <summary>
-            Creates an order api controller
+            Creates an order
             </summary>
-            <param name="deliveryService">Order service instance</param>
+            <param name="items">Order items</param>
+            <param name="customer">Order customer</param>
         </member>
         <member name="M:Delivery.API.Controllers.DeliveryController.UpdateOrderSituation(System.String,Delivery.Domain.Entities.OrderDeliverySituation)">
             <summary>
@@ -26,6 +27,11 @@
             </summary>
             <param name="orderDeliveryId">Order Delivery identification</param>
             <param name="orderDeliverySituation">Order situation</param>
+        </member>
+        <member name="M:Delivery.API.Controllers.DeliveryController.GetAllOrdersToDelivery">
+            <summary>
+            Gets all orders to delivery
+            </summary>
         </member>
     </members>
 </doc>

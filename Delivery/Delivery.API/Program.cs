@@ -1,5 +1,4 @@
 using Microsoft.OpenApi.Models;
-using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 

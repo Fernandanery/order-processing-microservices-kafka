@@ -11,12 +11,13 @@ namespace Delivery.API.Controllers
     [ApiController]
     public class DeliveryController(IOrderDeliveryService deliveryService) : ControllerBase
     {
-        /// <summary>
-        /// Creates an order api controller
-        /// </summary>
-        /// <param name="deliveryService">Order service instance</param>
         private readonly IOrderDeliveryService _deliveryService = deliveryService;
 
+        /// <summary>
+        /// Creates an order
+        /// </summary>
+        /// <param name="items">Order items</param>
+        /// <param name="customer">Order customer</param>
         [HttpPost("create-order-delivery")]
         public async void CreateOrderDelivery([FromForm] IList<string> items, [FromForm] Customer customer)
         {
@@ -34,6 +35,9 @@ namespace Delivery.API.Controllers
             await _deliveryService.UpdateOrderDeliverySituation(orderDeliveryId, orderDeliverySituation);
         }
 
+        /// <summary>
+        /// Gets all orders to delivery
+        /// </summary>
         [HttpGet("get-all-orders-to-delivery")]
         public IList<Domain.Entities.OrderDelivery> GetAllOrdersToDelivery()
         {
