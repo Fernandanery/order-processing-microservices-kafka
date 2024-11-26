@@ -784,6 +784,20 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "Delivery.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Confluent.Kafka": "2.6.1",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Delivery.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Delivery.Domain.dll": {}
+        }
       }
     }
   },
@@ -1921,11 +1935,17 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Delivery.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Delivery.Domain/Delivery.Domain.csproj",
+      "msbuildProject": "../Delivery.Domain/Delivery.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Confluent.Kafka >= 2.6.1",
+      "Delivery.Domain >= 1.0.0",
       "Microsoft.Extensions.Hosting >= 8.0.0"
     ]
   },
@@ -1956,7 +1976,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.Domain\\Delivery.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery\\Delivery.Domain\\Delivery.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

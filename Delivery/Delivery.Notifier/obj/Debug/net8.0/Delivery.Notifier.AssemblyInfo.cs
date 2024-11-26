@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-Delivery.Notifier-765bc27d-29f8-43b7-9fda-991a93f310f1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Delivery.Notifier")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58c2c75bd31b0e8d380cf3fc18cdce3e6a757602")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f80ea0f7fd1905cc689058f8399a9594befa657")]
 [assembly: System.Reflection.AssemblyProductAttribute("Delivery.Notifier")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Delivery.Notifier")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -15,10 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{A01C02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delivery.Domain", "Delivery.Domain\Delivery.Domain.csproj", "{BDE6B9E1-8C53-4887-9545-C21E036042CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delivery.Notifier", "Delivery.Notifier\Delivery.Notifier.csproj", "{1CFAC396-6102-4CF9-ADBC-AAC981027EF9}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BDE6B9E1-8C53-4887-9545-C21E036042CB} = {BDE6B9E1-8C53-4887-9545-C21E036042CB}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delivery.Notifier", "Delivery.Notifier\Delivery.Notifier.csproj", "{BE5E438F-6473-4BCD-B120-48760698A0A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,10 +31,10 @@ Global
 		{BDE6B9E1-8C53-4887-9545-C21E036042CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDE6B9E1-8C53-4887-9545-C21E036042CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDE6B9E1-8C53-4887-9545-C21E036042CB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1CFAC396-6102-4CF9-ADBC-AAC981027EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1CFAC396-6102-4CF9-ADBC-AAC981027EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1CFAC396-6102-4CF9-ADBC-AAC981027EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1CFAC396-6102-4CF9-ADBC-AAC981027EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5E438F-6473-4BCD-B120-48760698A0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5E438F-6473-4BCD-B120-48760698A0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5E438F-6473-4BCD-B120-48760698A0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5E438F-6473-4BCD-B120-48760698A0A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

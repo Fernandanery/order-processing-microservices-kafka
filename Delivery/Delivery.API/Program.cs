@@ -12,19 +12,15 @@ builder.Services.AddControllers();
 
 builder.Services.AddSwaggerGen(options =>
 {
-    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Order API", Version = "v1" });
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Order Delivery API", Version = "v1" });
 
-    // Obtenha o caminho correto do arquivo XML
+    //Obter o caminho do XML
     var xmlFilename = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFilename);
 
     if (File.Exists(xmlPath))
     {
         options.IncludeXmlComments(xmlPath);
-    }
-    else
-    {
-        Console.WriteLine($"Aviso: O arquivo XML de documentação não foi encontrado em {xmlPath}");
     }
 });
 
@@ -34,7 +30,7 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Order API V1");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Order Delivery API V1");
     c.RoutePrefix = string.Empty;
 });
 
@@ -48,7 +44,4 @@ app.UseEndpoints(endpoints =>
         throw new ArgumentNullException(nameof(endpoints));
 });
 
-
-
-// Inicia o servidor
-if (app != null) app.Run();
+app.Run();
