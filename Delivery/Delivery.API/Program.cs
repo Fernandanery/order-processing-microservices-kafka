@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configuração de logging para exibir logs no console
+// Configuração de logging 
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
@@ -18,7 +18,6 @@ builder.Services.AddSwaggerGen(options =>
     var xmlFilename = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFilename);
 
-    // Verifique se o arquivo XML existe antes de incluí-lo
     if (File.Exists(xmlPath))
     {
         options.IncludeXmlComments(xmlPath);
@@ -36,19 +35,20 @@ app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Order API V1");
-    c.RoutePrefix = string.Empty; // Torna o Swagger acessível na raiz (http://localhost:5000)
+    c.RoutePrefix = string.Empty;
 });
 
 app.UseRouting();
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllers(); // Mapeia automaticamente os controladores
+    if (endpoints != null)
+        endpoints.MapControllers();
+    else
+        throw new ArgumentNullException(nameof(endpoints));
 });
 
-// Log para indicar que a aplicação está sendo iniciada
-Console.WriteLine("Aplicação iniciando...");
-Console.WriteLine($"Ambiente: {builder.Environment.EnvironmentName}");
+
 
 // Inicia o servidor
-app.Run();
+if (app != null) app.Run();
