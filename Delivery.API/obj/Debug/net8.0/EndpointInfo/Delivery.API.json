@@ -1,0 +1,200 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Order Delivery API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Delivery/create-order-delivery": {
+      "post": {
+        "tags": [
+          "Delivery"
+        ],
+        "summary": "Creates an order",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "PhoneNumber": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "items": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "PhoneNumber": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Delivery/update-order-delivery-situation": {
+      "put": {
+        "tags": [
+          "Delivery"
+        ],
+        "summary": "Updates an order situation",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "orderDeliveryId": {
+                    "type": "string"
+                  },
+                  "orderDeliverySituation": {
+                    "$ref": "#/components/schemas/OrderDeliverySituation"
+                  }
+                }
+              },
+              "encoding": {
+                "orderDeliveryId": {
+                  "style": "form"
+                },
+                "orderDeliverySituation": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Delivery/get-all-orders-to-delivery": {
+      "get": {
+        "tags": [
+          "Delivery"
+        ],
+        "summary": "Gets all orders to delivery",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OrderDelivery"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OrderDelivery"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OrderDelivery"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Customer": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderDelivery": {
+        "type": "object",
+        "properties": {
+          "orderDeliveryId": {
+            "type": "string",
+            "nullable": true
+          },
+          "orderDeliveryCreateDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "orderDeliveryLastUpdate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "orderDeliverySituation": {
+            "$ref": "#/components/schemas/OrderDeliverySituation"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "customer": {
+            "$ref": "#/components/schemas/Customer"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderDeliverySituation": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    }
+  }
+}

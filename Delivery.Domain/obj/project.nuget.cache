@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PYUT1xlWFKM=",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\estudos\\order-processing-microservices-kafka\\Delivery.Domain\\Delivery.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\4960031201\\.nuget\\packages\\confluent.kafka\\2.6.1\\confluent.kafka.2.6.1.nupkg.sha512",
+    "C:\\Users\\4960031201\\.nuget\\packages\\librdkafka.redist\\2.6.1\\librdkafka.redist.2.6.1.nupkg.sha512",
+    "C:\\Users\\4960031201\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\4960031201\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
