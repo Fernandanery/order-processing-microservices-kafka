@@ -83,10 +83,8 @@ namespace Delivery.Domain.Services
 
             string orderConvertedToJson = JsonSerializer.Serialize(order);
 
-            using (var producer = new ProducerBuilder<Null, string>(config).Build())
-            {
-                var deliveryReport = await producer.ProduceAsync(_orderTopicName, new Message<Null, string> { Value = orderConvertedToJson });
-            }
+            using var producer = new ProducerBuilder<Null, string>(config).Build();
+            var deliveryReport = await producer.ProduceAsync(_orderTopicName, new Message<Null, string> { Value = orderConvertedToJson });
         }
     }
 }

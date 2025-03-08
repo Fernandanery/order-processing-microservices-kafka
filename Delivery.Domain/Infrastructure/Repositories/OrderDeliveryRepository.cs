@@ -7,7 +7,7 @@ namespace Delivery.Domain.Infrastructure.Repositories
     /// </summary>
     public class OrderDeliveryRepository : IOrderDeliveryRepository
     {
-        private static readonly IList<Entities.OrderDelivery> _orderDataBase = new List<Entities.OrderDelivery>();
+        private static readonly IList<Entities.OrderDelivery> _orderDataBase = [];
 
         /// <summary>
         /// Add an order into database
@@ -24,7 +24,7 @@ namespace Delivery.Domain.Infrastructure.Repositories
         /// <returns>All orders</returns>
         public IList<Entities.OrderDelivery> GetAll()
         {
-            return _orderDataBase.ToList();
+            return [.. _orderDataBase];
         }
 
         /// <summary>
@@ -35,10 +35,7 @@ namespace Delivery.Domain.Infrastructure.Repositories
         {
             var orderRecovered = _orderDataBase.FirstOrDefault(o => o.OrderDeliveryId.Equals(OrderId));
 
-            if (orderRecovered == null)
-                throw new Exception("Order not found");
-
-            return orderRecovered;
+            return orderRecovered ?? throw new Exception("Order not found");
         }
 
         /// <summary>

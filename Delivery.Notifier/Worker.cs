@@ -31,8 +31,11 @@ namespace Delivery.Notifier
         {
             INotifierService notifierService;
             notifierService = new NotifierService();
-            if (notifierService == null) throw new ArgumentNullException(nameof(notifierService));
-
+            if (notifierService == null)
+            {
+                ArgumentNullException argumentNullException = new ArgumentNullException(nameof(notifierService));
+                throw argumentNullException;
+            }
 
             while (!stoppingToken.IsCancellationRequested)
             {
@@ -63,9 +66,7 @@ namespace Delivery.Notifier
                         {
                             var consumeResult = consumer.Consume(cts.Token);
 
-                            var order =
-                                JsonSerializer.Deserialize<Domain.Entities.OrderDelivery>(consumeResult.Message
-                                    .Value);
+                            var order = JsonSerializer.Deserialize<Domain.Entities.OrderDelivery>(consumeResult.Message.Value);
 
                             notifierService.Notify(order);
 

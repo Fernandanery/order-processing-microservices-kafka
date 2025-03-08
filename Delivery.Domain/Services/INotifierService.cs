@@ -11,6 +11,6 @@ namespace Delivery.Domain.Services
         /// Notifies the customer about some order update
         /// </summary>
         /// <param name="order">Order data</param>
-        void Notify(OrderDelivery? order);
+        void Notify(Entities.OrderDelivery order);
     }
 }
